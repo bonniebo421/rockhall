@@ -1,0 +1,17 @@
+name = Rock Hall Oral Histories
+description = Custom theme designed for the Rock and Roll Hall of Fame Oral Histories site.
+package = Core
+version = 1.0
+core = 7.x
+stylesheets[all][] = styles/styles.css
+
+; Information added by Drupal.org packaging script on 2015-05-07
+version = "7.37"
+project = "drupal"
+datestamp = "1430973154"
+
+regions[header]  = Header
+regions[content] = Content
+regions[footer]  = Footer
+
+features[] = favicon

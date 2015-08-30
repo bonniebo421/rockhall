@@ -54,4 +54,4 @@
  * @see http://drupal.org/documentation/install/multi-site
  */
 
-$sites['rock.dd'] = 'default'; // localhost
+$sites['rockhall.dd'] = 'default'; // localhost

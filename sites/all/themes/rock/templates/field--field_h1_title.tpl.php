@@ -1,3 +1,3 @@
-<h1 class="page-title">
+<h2 class="page-title">
     <?php print render($items); ?>
-</h1>
+</h2>

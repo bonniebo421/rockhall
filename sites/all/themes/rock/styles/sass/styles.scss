@@ -14,45 +14,95 @@ a{
 	}
 }
 p{
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #cacaca;
 }
-
-/* SCROLLBARS */
 
 /* HEADER STYLES */
 header{
 	width: 95%;
-	margin: 0 2.5%;
+	margin: 20px 2.5%;
 	clear: both;
 	overflow: hidden;
-	#logo{
-		width: 15%;
-		float: left;
-	}
-	#search{
-		float: right;
-	}
 	nav{
+		margin: 30px 0;
+		float: left;
 		a{
+			font-size: 18px;
+			line-height: 40px;
 			color: #cacaca;
+			display: block;
+			text-transform: uppercase;
+			text-decoration: none;
 			&:hover{
 				color: #dd4d24;
 			}
+		}
+	}
+	#project-title{
+		text-align: center;
+		margin: 0 auto;
+		width: 60%;
+		position: block;
+		#logo{
+			padding: 0;
+			position: relative;
+			width: 30%;
+			margin: 0 auto;
+			display: block;
+		}
+		h1{
+			margin: 0;
+			font-size: 36px;
+			line-height: 38px;
+			width: auto;
+			position: relative;
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+	}
+	#search{
+		float: right;
+		margin: 30px 0;
+		input.form-text{
+			background: #000;
+			border: 1px solid #cacaca;
+			padding: 5px 10px;
+			color: #fff;
+			font-size: 18px;
+			font-family: arial;
+			font-weight: normal;
+		}
+		input.form-submit{
+			background: #000;
+			color: #cacaca;
+			border: 0;
+			font-size: 18px;
+			font-weight: normal;
+			text-transform: uppercase;
+			padding: 2px 5px;
+			text-decoration: underline;
 		}
 	}
 }
 
 /* CONTENT STYLES */
 #content{
-	width: 95%;
-	margin: 60px 2.5%;
+	width: 80%;
+	margin: 60px 10%;
+	.page-title{
+		margin: 0;
+		font-size: 30px;
+		line-height: 32px;
+		font-weight: normal;
+	}
 }
 
 /* VIDEO PLAYER */
 #videos{
-	width: 80%;
-	margin: 40px 10%;
+	width: 100%;
+	margin: 10px 0;
 	clear: both;
 	overflow: hidden;
 	h1{
@@ -174,11 +224,15 @@ header{
 
 /* FOOTER STYLES */
 footer{
-	width: 95%;
-	margin: 0 2.5%;
+	width: 80%;
+	margin: 0 10%;
 	#copyright{
-		font-size: 14px;
 		color: #cacaca;
+		text-align: center;
+		font-style: italic;
+		p{
+			font-size: 18px;
+		}
 	}
 }
 

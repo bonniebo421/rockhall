@@ -5,6 +5,9 @@ version = 1.0
 core = 7.x
 stylesheets[all][] = styles/styles.css
 
+scripts[] = js/jquery-1.11.3.min.js
+scripts[] = js/global.js
+
 ; Information added by Drupal.org packaging script on 2015-05-07
 version = "7.37"
 project = "drupal"

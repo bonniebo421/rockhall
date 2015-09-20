@@ -19,15 +19,19 @@ foreach ($variables['view']->result as $result) {
 
 <section id="features">
     <?php foreach ($features as $feature) { ?>
-        <div id="<?php print $feature['order']; ?>">
+        <div id="feat-<?php print $feature['order']; ?>">
             <?php if ($feature['image']) { ?>
-                <img src="<?php print file_create_url($feature['image']); ?>" alt="<?php print $feature['alt']; ?>" />
+                <div>
+                    <img src="<?php print file_create_url($feature['image']); ?>" alt="<?php print $feature['alt']; ?>" />
+                </div>
             <?php } else { ?>
                 No image
             <?php } ?>
-            <h3><?php print $feature['title']; ?></h3>
-            <p class="description"><?php print $feature['description']; ?></p>
-            <a href="<?php print file_create_url($feature['url']); ?>"><?php print $feature['link']; ?></a>
+            <div>
+                <h2><?php print $feature['title']; ?></h2>
+                <p class="description"><?php print $feature['description']; ?></p>
+                <a href="<?php print file_create_url($feature['url']); ?>"><?php print $feature['link']; ?></a>
+            </div>
         </div>
     <?php } ?>
 </section>

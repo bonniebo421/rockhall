@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 body{
-	background: #000;
+	background: #141414;
 	color: #FFF;
 	font-family: arial, sans-serif;
 	font-size: 16px;
@@ -53,13 +53,21 @@ header{
 			display: block;
 		}
 		h1{
-			margin: 0;
+			margin: 10px 0;
 			font-size: 36px;
 			line-height: 38px;
 			width: auto;
 			position: relative;
 			text-transform: uppercase;
 			font-weight: normal;
+			a{
+				color: #dd4d24;
+				text-decoration: none;
+				font-weight: normal;
+				&:hover{
+					color: #dc876f;
+				}
+			}
 		}
 	}
 	#search{
@@ -87,6 +95,90 @@ header{
 	}
 }
 
+/* HOMEPAGE FEATURES */
+#features{
+	clear: both;
+	overflow: hidden;
+	width: 80%;
+	margin: 0 10%;
+	div{
+		h2{
+			font-weight: normal;
+			font-size: 24px;
+			line-height: 28px;
+			margin: 12px 0;
+			padding: 0;
+		}
+		img{
+			width: 100%;
+		}
+		margin: 20px 0;
+		div{
+			margin: 0;
+		}
+		p{
+			line-height: 18px;
+			padding: 0;
+			margin: 0 0 12px 0;
+			color: #bcbcbc;
+		}
+		&#feat-1{
+			padding: 0;
+			background: #202020;
+			display: table;
+			width: 100%;
+			clear: both;
+			overflow: hidden;
+			div{
+				&:first-child{
+					padding: 0;
+					width: 70%;
+					vertical-align: top;
+				}
+				padding: 0 2.5%;
+				width: 25%;
+				vertical-align: middle;
+				display: table-cell;
+				h2{
+					font-size: 32px;
+					line-height: 32px;
+					font-weight: normal;
+					margin: 0;
+					padding: 0;
+				}
+				a{
+					font-size: 18px;
+				}
+			}
+		}
+		&#feat-2{
+			width: 47.5%;
+			float: left;
+			margin-right: 5%;
+		}
+		&#feat-3{
+			width: 47.5%;
+			float: left;
+		}
+		&#feat-4{
+			width: 30%;
+			clear: left;
+			overflow: hidden;
+			float: left;
+			margin-right: 5%;
+		}
+		&#feat-5{
+			width: 30%;
+			float: left;
+			margin-right: 5%;
+		}
+		&#feat-6{
+			width: 30%;
+			float: left;
+		}
+	}
+}
+
 /* CONTENT STYLES */
 #content{
 	width: 80%;
@@ -96,6 +188,17 @@ header{
 		font-size: 30px;
 		line-height: 32px;
 		font-weight: normal;
+	}
+}
+
+/* BROWSE INTERVIEWS */
+#interviews{
+	div{
+		width: 30%;
+		margin: 20px 1.5%;
+		img{
+			width: 100%;
+		}
 	}
 }
 
@@ -224,14 +327,23 @@ header{
 
 /* FOOTER STYLES */
 footer{
+	clear: both;
+	overflow: hidden;
 	width: 80%;
-	margin: 0 10%;
+	margin: 20px 10%;
 	#copyright{
 		color: #cacaca;
 		text-align: center;
 		font-style: italic;
 		p{
-			font-size: 18px;
+			font-size: 16px;
+			a{
+				text-decoration: none;
+				color: #cacaca;
+				&:hover{
+					color: #dd4d24;
+				}
+			}
 		}
 	}
 }

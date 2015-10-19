@@ -97,7 +97,9 @@ function field_collection_item_values($field, $item, $value = 'value', $default 
 			</li>
 		<?php } ?>
 	</ul>
-    <h2 id="video-title"></h2>
-    <p id="video-order"></p>
-    <p id="video-description"></p>
+    <div id="video-info">
+        <h2 id="video-title"></h2>
+        <p id="video-order"></p>
+        <p id="video-description"></p>
+    </div>
 </section>

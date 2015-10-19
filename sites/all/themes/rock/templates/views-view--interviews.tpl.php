@@ -25,7 +25,7 @@ foreach ($variables['view']->result as $result) {
             <?php } ?>
             <h2><?php print $interview['title']; ?></h2>
             <p class="description"><?php print $interview['description']; ?></p>
-            <a href="node/<?php print $interview['url']; ?>">View this interview</a>
+            <a href="node/<?php print $interview['url']; ?>">Watch this interview</a>
         </div>
     <?php } ?>
 </section>

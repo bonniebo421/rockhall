@@ -27,11 +27,13 @@ foreach ($variables['view']->result as $result) {
                 </div>
             <?php } else { ?>
                 <div>
-                    <img src="<?php print file_create_url($feature['image']); ?>" alt="<?php print $feature['alt']; ?>" />
+                    <a href="<?php print file_create_url($feature['url']); ?>">
+                        <img src="<?php print file_create_url($feature['image']); ?>" alt="<?php print $feature['alt']; ?>" />
+                    </a>
                 </div>
             <?php } ?>
             <div>
-                <h2><?php print $feature['title']; ?></h2>
+                <h2><a href="<?php print file_create_url($feature['url']); ?>"><?php print $feature['title']; ?></a></h2>
                 <p class="description"><?php print $feature['description']; ?></p>
                 <a href="<?php print file_create_url($feature['url']); ?>"><?php print $feature['link']; ?></a>
             </div>

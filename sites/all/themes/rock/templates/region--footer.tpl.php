@@ -1,4 +1,3 @@
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
 <footer>
     <div id="copyright">
         <p>Powered by: <a href="http://rockhall.com" target="blank">The Rock and Roll Hall Fame</a></p>
